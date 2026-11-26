@@ -1,2 +1,3 @@
-# computa-o-udesc
-Repositório centralizado para armazenar e organizar os conteúdos, exercícios, trabalhos e projetos desenvolvidos ao longo da minha graduação em Ciência da Computação na UDESC.
+# Ciência da Computação - UDESC CCT
+Repositório para armazenamento e organização dos conteúdos, exercícios, trabalhos e projetos desenvolvidos ao longo da minha graduação em Ciência da Computação na UDESC.
+
