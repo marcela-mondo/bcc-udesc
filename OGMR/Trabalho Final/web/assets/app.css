@@ -1,0 +1,41 @@
+/* port-warden | assets/app.css */
+
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .78rem; }
+
+/* Cartões de porta ------------------------------------------------------- */
+.porta { border-width: 2px; transition: transform .08s ease, box-shadow .08s ease; user-select: none; }
+.porta.clicavel { cursor: pointer; }
+.porta.clicavel:hover { transform: translateY(-2px); box-shadow: 0 .25rem .75rem rgba(0,0,0,.08); }
+.porta.selecionada { outline: 3px solid #0d6efd; outline-offset: 1px; }
+
+.estado-liberada     { border-color: #198754; }
+.estado-bloqueada    { border-color: #dc3545; background: #fff5f5; }
+.estado-protegida    { border-color: #6c757d; background: #f4f5f7; }
+.estado-defeito      { border-color: #adb5bd; background: #eceef1; opacity: .7; }
+.estado-desconhecido { border-color: #ffc107; border-style: dashed; }
+
+.estado-liberada  .cadeado { color: #198754; }
+.estado-bloqueada .cadeado { color: #dc3545; }
+.estado-protegida .cadeado,
+.estado-defeito   .cadeado { color: #6c757d; }
+.estado-desconhecido .cadeado { color: #b58900; }
+
+.rotulo-liberada     { background: #198754; }
+.rotulo-bloqueada    { background: #dc3545; }
+.rotulo-protegida    { background: #6c757d; }
+.rotulo-defeito      { background: #adb5bd; }
+.rotulo-desconhecido { background: #ffc107; color: #000; }
+
+/* Indicador de atualização ---------------------------------------------- */
+.indicador { display: inline-block; width: .5rem; height: .5rem; border-radius: 50%;
+             background: #198754; margin-left: .25rem; vertical-align: middle; opacity: .35; }
+.indicador.ativo { opacity: 1; animation: pulsar .8s ease-in-out infinite; }
+@keyframes pulsar { 50% { transform: scale(1.6); } }
+
+/* Enquanto uma ação roda ------------------------------------------------- */
+body.ocupado { cursor: progress; }
+body.ocupado button { pointer-events: none; opacity: .65; }
+
+/* Fallback mínimo caso o Bootstrap não carregue ------------------------- */
+.d-none { display: none !important; }
+[hidden] { display: none !important; }
