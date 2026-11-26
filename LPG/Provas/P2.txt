@@ -1,0 +1,35 @@
+1) 5 pontos -> Desenvolva um código (em C) que promova a alocação dinâmica de um vetor de inteiros.
+
+O código deverá permitir a inserção de valores, de forma ordenada (crescente), considerando a realocação de memória (dinâmica); e
+A remoção de valores deverá considerar/realizar a realocação da memória, sempre que um valor seja identificado (bem como suas repetições).
+
+_________________________
+Situação do vetor: []
+Escolha a opção desejada:
+[1] Inserção de valor
+[2] Remoção de valor
+--------------------------
+=> 2
+>>> Nao existem valores a serem removidos
+_________________________
+Situação do vetor: []
+Escolha a opção desejada:
+[1] Inserção de valor
+[2] Remoção de valor
+--------------------------
+=> 1
+>>> Digite o valor a ser incluído: 4
+>>> Valor incluido
+_________________________
+Situação do vetor: [4]
+Escolha a opção desejada:
+[1] Inserção de valor
+[2] Remoção de valor
+--------------------------
+=> 1
+>>> Digite o valor a ser removido: 4
+>>> Valor(es) removido(s)
+...
+
+
+2) 5 pontos -> Considere/identifique uma estrutura de dados que envolva os dados pessoais de uma pessoa (nome, sexo, idade, cidade natal, local de trabalho, profissão - considerando uma possibilidade finita de ocupações, e situação matrimonial / nome do(a) companheiro(a)). Desenvolva um código que permita fazer a alocação/realocação dinâmica de um vetor, considerando os dados inseridos, que representam cada um dos indivíduos identificados. Organize também, nesta estrutura de dados, informações que sejam excludentes. As funções de adição e remoção devem ser implementadas, além de um relatório dos dados existentes/registrados. 
