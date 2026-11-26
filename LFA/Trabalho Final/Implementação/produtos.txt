@@ -1,0 +1,10 @@
+Água 2.00 3
+Coca-Cola 4.50 4
+Guaraná 4.50 2
+Suco_de_Laranja_(Del_Valle) 3.50 1
+Suco_de_Uva_(Del_Valle) 3.50 4
+KitKat 4.00 0
+Batata_Lay's 6.75 4
+MM'S 3.75 1
+Snickers 4.00 4
+Trento 2.00 0
