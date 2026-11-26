@@ -6,6 +6,7 @@ Repositório para armazenamento e organização dos conteúdos, exercícios, tra
 | AGT | Algoritmos|
 | ALI | Álgebra Linear| 
 | AMS | Análise e Modelagem de Sistemas|
+| CAN | Cálculo Numérico (Licenciatura DMAT)|
 | ECC | Eletrônica Para Ciência da Computação|
 | EDA | Estrutura de Dados|
 | EDA II | Estrutura de Dados II|
